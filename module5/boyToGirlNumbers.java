@@ -2,7 +2,7 @@
 /**
  * This program will find the chance of each ratio of users kids gender using a text file.
  * 
- * @author (eric) 
+ * @author (eric halonen) 
  * @version (10/29/17)
  */
 import java.util.Scanner;
