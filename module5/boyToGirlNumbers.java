@@ -50,7 +50,7 @@ public class boyToGirlNumbers
         }
         System.out.println("2 boys: " + boys2);
         System.out.println("2 Girls: " + girls2);
-        System.out.println("1 Girl and 1 boy: " + girlBoy);
+        System.out.print("1 Girl and 1 boy: " + girlBoy);
      }//end of main
 }
    
