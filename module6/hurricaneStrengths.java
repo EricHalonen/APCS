@@ -2,7 +2,7 @@
 /**
  * Write a description of class hurricaneStrengths here.
  * 
- * @author (your name) 
+ * @author Eric Halonen
  * @version (a version number or a date)
  */
 import java.util.Scanner;
