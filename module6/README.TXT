@@ -1,12 +1,8 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+1. Make changes in BlueJ.
+2. Save changes, compile test.
+3. git status — to see changes
+4. git add <stuff> - to add changes to “staging” area
+5. git status - to confirm all changes are in “staging” area (all green)
+6. git commit -m “your meaningful comment for commit” - this makes changes saved in git
+7. git push - sends to github
