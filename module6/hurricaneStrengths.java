@@ -14,19 +14,23 @@ public class hurricaneStrengths
     public static void main(String[] args) throws IOException
     {
         //read in files here
-        File hurrDataFile = new File("hurcdata2");
+        File hurrDataFile = new File("hurcdata2.txt");
         Scanner hurrData = new Scanner(hurrDataFile);
         //Create initial print statements
         System.out.println("           Hurricane data");
-        System.out.printf("%7s year: ");
-        System.out.printf("&7s ");
-        System.out.printf("&7s ");
-        System.out.printf("&7s ");
+        System.out.printf("%7s","year: ");
+        System.out.println();
+        String line = "";
+        String secondLine= "";
         while(hurrData.hasNext())
         {
-            System.out.println(hurrData);
-        }
-    }
-}
+            line = hurrData.next();
+            secondLine = hurrData.nextLine();
+            System.out.printf("%7s",line);
+            System.out.printf("%25s",secondLine);
+            System.out.println();
+        
+    
+
       
     
